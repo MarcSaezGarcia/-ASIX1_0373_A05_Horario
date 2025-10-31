@@ -1,66 +1,78 @@
-<table border="1" cellspacing="0" cellpadding="6">
-    <!-- Fila de cabecera: nombres de las columnas -->
-    <tr>
-        <th>Hora</th>       <!-- Columna para mostrar el horario -->
-        <th>Dilluns</th>    <!-- Lunes -->
-        <th>Dimarts</th>    <!-- Martes -->
-        <th>Dimecres</th>   <!-- Miércoles -->
-        <th>Dijous</th>     <!-- Jueves -->
-        <th>Divendres</th>  <!-- Viernes -->
-    </tr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="6">
+        <!-- Fila de cabecera: nombres de las columnas -->
+        <tr>
+            <th>Hora</th>       <!-- Columna para mostrar el horario -->
+            <th>Dilluns</th>    <!-- Lunes -->
+            <th>Dimarts</th>    <!-- Martes -->
+            <th>Dimecres</th>   <!-- Miércoles -->
+            <th>Dijous</th>     <!-- Jueves -->
+            <th>Divendres</th>  <!-- Viernes -->
+        </tr>
 
-    <!-- Fila 8:00 - 8:55 -->
-    <tr>
-        <td>8:00 - 8:55</td>
-        <td></td> <!-- Lunes libre -->
-        <td>1709 IPO1<br>Miguel</td> <!-- Martes: IPO1 con Miguel -->
-        <td>TUTORIA<br>Gerard</td> <!-- Miércoles: Tutoría con Gerard -->
-        <td></td> <!-- Jueves libre -->
-        <td>1709 IPO2<br>Miguel</td> <!-- Viernes: IPO2 con Miguel -->
-    </tr>
+        <!-- Fila 8:00 - 8:55 -->
+        <tr>
+            <td>8:00 - 8:55</td>
+            <td></td> <!-- Lunes libre -->
+            <td>1709 IPO1<br>Miguel</td> <!-- Martes: IPO1 con Miguel -->
+            <td>TUTORIA<br>Gerard</td> <!-- Miércoles: Tutoría con Gerard -->
+            <td></td> <!-- Jueves libre -->
+            <td>1709 IPO2<br>Miguel</td> <!-- Viernes: IPO2 con Miguel -->
+        </tr>
 
-    <!-- Fila 8:55 - 9:50 -->
-    <tr>
-        <td>8:55 - 9:50</td>
-        <td rowspan="2">1709 IPO1<br>Miguel</td> <!-- Lunes: IPO1 ocupa dos horas seguidas -->
-        <td rowspan="2">Xarxes<br>Nuri/Gerard</td> <!-- Martes: Xarxes ocupa dos horas seguidas -->
-        <td rowspan="2">0369 Imp. SO<br>S. Velasco / Alejandro</td> <!-- Miércoles: SO ocupa dos horas -->
-        <td rowspan="2">1710 IPO2<br>Miguel</td> <!-- Jueves: IPO2 ocupa dos horas -->
-        <td>0179 Anglès<br>Alex</td> <!-- Viernes: Inglés -->
-    </tr>
+        <!-- Fila 8:55 - 9:50 -->
+        <tr>
+            <td>8:55 - 9:50</td>
+            <td rowspan="2">1709 IPO1<br>Miguel</td> <!-- Lunes: IPO1 ocupa dos horas seguidas -->
+            <td rowspan="2">Xarxes<br>Nuri/Gerard</td> <!-- Martes: Xarxes ocupa dos horas seguidas -->
+            <td rowspan="2">0369 Imp. SO<br>S. Velasco / Alejandro</td> <!-- Miércoles: SO ocupa dos horas -->
+            <td rowspan="2">1710 IPO2<br>Miguel</td> <!-- Jueves: IPO2 ocupa dos horas -->
+            <td>0179 Anglès<br>Alex</td> <!-- Viernes: Inglés -->
+        </tr>
 
-    <!-- Fila 9:50 - 10:45 -->
-    <tr>
-        <td>9:50 - 10:45</td>
-        <td>0369 Imp. SO<br>S. Velasco / Alejandro</td> <!-- Segunda hora de Sistemas Operativos -->
-    </tr>
+        <!-- Fila 9:50 - 10:45 -->
+        <tr>
+            <td>9:50 - 10:45</td>
+            <td>0369 Imp. SO<br>S. Velasco / Alejandro</td> <!-- Segunda hora de Sistemas Operativos -->
+        </tr>
 
-    <!-- Fila 10:45 - 11:15 (PATIO) -->
-    <tr>
-        <td>10:45 - 11:15</td>
-        <td colspan="5" align="center"><b>PATI</b></td> <!-- Celda que ocupa todas las columnas indicando recreo -->
-    </tr>
+        <!-- Fila 10:45 - 11:15 (PATIO) -->
+        <tr>
+            <td>10:45 - 11:15</td>
+            <td colspan="5" align="center"><b>PATI</b></td> <!-- Celda que ocupa todas las columnas indicando recreo -->
+        </tr>
 
-    <!-- Fila 11:15 - 12:10 -->
-    <tr>
-        <td>11:15 - 12:10</td>
-        <td rowspan="2">0372 Gest. BBDD<br>Agnès</td> <!-- Lunes: Base de Datos abarca dos horas -->
-        <td rowspan="3">OP202 Prog.<br>Fatima / Alejandro</td> <!-- Martes: Programación unida tres horas -->
-        <td rowspan="3">0372 Gest. BBDD<br>Agnès / Alejandro</td> <!-- Miércoles: Base de Datos abarca tres horas -->
-        <td>0179 Anglès<br>Alex</td> <!-- Jueves: Inglés -->
-        <td>0369 Imp. SO<br>S. Velasco / Alejandro</td> <!-- Viernes: Sistemas Operativos -->
-    </tr>
+        <!-- Fila 11:15 - 12:10 -->
+        <tr>
+            <td>11:15 - 12:10</td>
+            <td rowspan="2">0372 Gest. BBDD<br>Agnès</td> <!-- Lunes: Base de Datos abarca dos horas -->
+            <td rowspan="3">OP202 Prog.<br>Fatima / Alejandro</td> <!-- Martes: Programación unida tres horas -->
+            <td rowspan="3">0372 Gest. BBDD<br>Agnès / Alejandro</td> <!-- Miércoles: Base de Datos abarca tres horas -->
+            <td>0179 Anglès<br>Alex</td> <!-- Jueves: Inglés -->
+            <td>0369 Imp. SO<br>S. Velasco / Alejandro</td> <!-- Viernes: Sistemas Operativos -->
+        </tr>
 
-    <!-- Fila 12:10 - 13:05 -->
-    <tr>
-        <td>12:10 - 13:05</td>
-        <td rowspan="2">0373 Lleng. Marques<br>Alberto</td> <!-- Jueves: Lenguajes de marcas abarca dos horas -->
-        <td rowspan="2">0376 Imp. Appl. Web<br>Alberto / Alejandro</td> <!-- Jueves: Implantación Web abarca dos horas -->
-    </tr>
+        <!-- Fila 12:10 - 13:05 -->
+        <tr>
+            <td>12:10 - 13:05</td>
+            <td rowspan="2">0373 Lleng. Marques<br>Alberto</td> <!-- Jueves: Lenguajes de marcas abarca dos horas -->
+            <td rowspan="2">0376 Imp. Appl. Web<br>Alberto / Alejandro</td> <!-- Jueves: Implantación Web abarca dos horas -->
+        </tr>
 
-    <!-- Fila 13:05 - 14:00 -->
-    <tr>
-        <td>13:05 - 14:00</td>
-        <td>1635 Digit.<br>Alberto</td> <!-- Lunes: Digitalización -->
-    </tr>
-</table>
+        <!-- Fila 13:05 - 14:00 -->
+        <tr>
+            <td>13:05 - 14:00</td>
+            <td>1635 Digit.<br>Alberto</td> <!-- Lunes: Digitalización -->
+        </tr>
+    </table>
+
+</body>
+</html>
+
